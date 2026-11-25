@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: artex-backend
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile.render
+    envVars:
+      - key: ARTEX_PG_DSN
+        sync: false
+      - key: PORT
+        value: 10000

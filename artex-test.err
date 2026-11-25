@@ -1,0 +1,12 @@
+2026/11/25 18:59:02 [config] 配置文件: C:\Users\omar268628\Desktop\ARTEX-main\ARTEX-main\config.json (不存在 — 将仅尝试环境变量 ARTEX_PG_DSN)
+2026/11/25 18:59:03 [pg] 数据库配置来源: 环境变量 ARTEX_PG_DSN
+2026/11/25 18:59:04 [traffic] recording proxy on 127.0.0.1:8788 (set HTTP_PROXY=http://127.0.0.1:8788 + trust _ca CA)
+time="2026-11-25T18:59:04+02:00" level=info msg="Proxy start listen at 127.0.0.1:8788\n"
+2026/11/25 18:59:04 [mcp] browser MCP 已移除捕获代理配置
+2026/11/25 18:59:04 [config] skill 目录: C:\Users\omar268628\Desktop\ARTEX-main\ARTEX-main\skills
+2026/11/25 18:59:04 [auth] 新 JWT key 已写入 C:\Users\omar268628\Desktop\ARTEX-main\ARTEX-main\jwt.key
+2026/11/25 18:59:04 [tools] 已刷新 orchestration/platform 工具 schema 到代码默认(一次性)
+2026/11/25 18:59:04 [reporter] 已预置「报告撰写」agent + finding 触发器
+2026/11/25 18:59:04 [custom-tool] 自动检测到 python 解释器: C:\Users\omar268628\AppData\Local\Microsoft\WindowsApps\python3.exe
+2026/11/25 18:59:04 [engine] no LLM provider configured — engine idle until set via /api/llm or env
+2026/11/25 18:59:04 ARTEX dev backend listening on :8787 (data=C:\Users\omar268628\Desktop\ARTEX-main\ARTEX-main\data, workers=3)

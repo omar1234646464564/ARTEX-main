@@ -1,0 +1,7 @@
+FROM alpine:3.20
+RUN apk add --no-cache ca-certificates socat tzdata
+WORKDIR /app
+COPY . /app
+RUN chmod +x /app/artex-linux-amd64
+EXPOSE 8787
+CMD ["sh", "-c", "socat TCP-LISTEN:${PORT:-10000},fork,reuseaddr TCP:127.0.0.1:8787 & exec /app/artex-linux-amd64"]
